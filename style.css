@@ -75,3 +75,15 @@ body {
   background-color: transparent;
 }
 
+@media (max-width: 760px) {
+  .heading-container__heading {
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 568px) {
+  .section--img1, .section--img2, .section--img3 {
+    background-attachment: scroll;
+  }
+}
+
